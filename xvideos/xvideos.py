@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from html import unescape
 import re
 import random
@@ -60,9 +58,7 @@ def choose_random_porn_comment():
 
 def main():
     comment = choose_random_porn_comment()
-
-    print(*comment, sep='\n')
-
+    
 if __name__ == '__main__':
     main()
 
