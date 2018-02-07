@@ -6,5 +6,6 @@ DEFAULT_REPLY = "Tente a sorte grande, digite \"sorte do dia\""
 
 PLUGINS = [
     'slackbot.plugins',
-    'xvideos.plugins',
+    'echo.plugins',
+    #'xvideos.plugins',
 ]
